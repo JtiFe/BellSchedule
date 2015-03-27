@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5688AF581AC4FDDF0071698B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688AF571AC4FDDF0071698B /* AppDelegate.swift */; };
+		5688AF5A1AC4FDDF0071698B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688AF591AC4FDDF0071698B /* ViewController.swift */; };
+		5688AF5D1AC4FDDF0071698B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5688AF5B1AC4FDDF0071698B /* Main.storyboard */; };
+		5688AF5F1AC4FDDF0071698B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5688AF5E1AC4FDDF0071698B /* Images.xcassets */; };
+		5688AF621AC4FDDF0071698B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5688AF601AC4FDDF0071698B /* LaunchScreen.xib */; };
+		5688AF6E1AC4FDDF0071698B /* BellScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688AF6D1AC4FDDF0071698B /* BellScheduleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5688AF681AC4FDDF0071698B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5688AF4A1AC4FDDF0071698B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5688AF511AC4FDDF0071698B;
+			remoteInfo = BellSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5688AF521AC4FDDF0071698B /* BellSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5688AF561AC4FDDF0071698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5688AF571AC4FDDF0071698B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5688AF591AC4FDDF0071698B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5688AF5C1AC4FDDF0071698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5688AF5E1AC4FDDF0071698B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5688AF611AC4FDDF0071698B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5688AF671AC4FDDF0071698B /* BellScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5688AF6C1AC4FDDF0071698B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5688AF6D1AC4FDDF0071698B /* BellScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellScheduleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5688AF4F1AC4FDDF0071698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5688AF641AC4FDDF0071698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5688AF491AC4FDDF0071698B = {
+			isa = PBXGroup;
+			children = (
+				5688AF541AC4FDDF0071698B /* BellSchedule */,
+				5688AF6A1AC4FDDF0071698B /* BellScheduleTests */,
+				5688AF531AC4FDDF0071698B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5688AF531AC4FDDF0071698B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5688AF521AC4FDDF0071698B /* BellSchedule.app */,
+				5688AF671AC4FDDF0071698B /* BellScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5688AF541AC4FDDF0071698B /* BellSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				5688AF571AC4FDDF0071698B /* AppDelegate.swift */,
+				5688AF591AC4FDDF0071698B /* ViewController.swift */,
+				5688AF5B1AC4FDDF0071698B /* Main.storyboard */,
+				5688AF5E1AC4FDDF0071698B /* Images.xcassets */,
+				5688AF601AC4FDDF0071698B /* LaunchScreen.xib */,
+				5688AF551AC4FDDF0071698B /* Supporting Files */,
+			);
+			path = BellSchedule;
+			sourceTree = "<group>";
+		};
+		5688AF551AC4FDDF0071698B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5688AF561AC4FDDF0071698B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5688AF6A1AC4FDDF0071698B /* BellScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5688AF6D1AC4FDDF0071698B /* BellScheduleTests.swift */,
+				5688AF6B1AC4FDDF0071698B /* Supporting Files */,
+			);
+			path = BellScheduleTests;
+			sourceTree = "<group>";
+		};
+		5688AF6B1AC4FDDF0071698B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5688AF6C1AC4FDDF0071698B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5688AF511AC4FDDF0071698B /* BellSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5688AF711AC4FDDF0071698B /* Build configuration list for PBXNativeTarget "BellSchedule" */;
+			buildPhases = (
+				5688AF4E1AC4FDDF0071698B /* Sources */,
+				5688AF4F1AC4FDDF0071698B /* Frameworks */,
+				5688AF501AC4FDDF0071698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellSchedule;
+			productName = BellSchedule;
+			productReference = 5688AF521AC4FDDF0071698B /* BellSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5688AF661AC4FDDF0071698B /* BellScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5688AF741AC4FDDF0071698B /* Build configuration list for PBXNativeTarget "BellScheduleTests" */;
+			buildPhases = (
+				5688AF631AC4FDDF0071698B /* Sources */,
+				5688AF641AC4FDDF0071698B /* Frameworks */,
+				5688AF651AC4FDDF0071698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5688AF691AC4FDDF0071698B /* PBXTargetDependency */,
+			);
+			name = BellScheduleTests;
+			productName = BellScheduleTests;
+			productReference = 5688AF671AC4FDDF0071698B /* BellScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5688AF4A1AC4FDDF0071698B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "James Feng";
+				TargetAttributes = {
+					5688AF511AC4FDDF0071698B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5688AF661AC4FDDF0071698B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5688AF511AC4FDDF0071698B;
+					};
+				};
+			};
+			buildConfigurationList = 5688AF4D1AC4FDDF0071698B /* Build configuration list for PBXProject "BellSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5688AF491AC4FDDF0071698B;
+			productRefGroup = 5688AF531AC4FDDF0071698B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5688AF511AC4FDDF0071698B /* BellSchedule */,
+				5688AF661AC4FDDF0071698B /* BellScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5688AF501AC4FDDF0071698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5688AF5D1AC4FDDF0071698B /* Main.storyboard in Resources */,
+				5688AF621AC4FDDF0071698B /* LaunchScreen.xib in Resources */,
+				5688AF5F1AC4FDDF0071698B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5688AF651AC4FDDF0071698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5688AF4E1AC4FDDF0071698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5688AF5A1AC4FDDF0071698B /* ViewController.swift in Sources */,
+				5688AF581AC4FDDF0071698B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5688AF631AC4FDDF0071698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5688AF6E1AC4FDDF0071698B /* BellScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5688AF691AC4FDDF0071698B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5688AF511AC4FDDF0071698B /* BellSchedule */;
+			targetProxy = 5688AF681AC4FDDF0071698B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5688AF5B1AC4FDDF0071698B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5688AF5C1AC4FDDF0071698B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5688AF601AC4FDDF0071698B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5688AF611AC4FDDF0071698B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5688AF6F1AC4FDDF0071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5688AF701AC4FDDF0071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5688AF721AC4FDDF0071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BellSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5688AF731AC4FDDF0071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BellSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5688AF751AC4FDDF0071698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BellScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellSchedule.app/BellSchedule";
+			};
+			name = Debug;
+		};
+		5688AF761AC4FDDF0071698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BellScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellSchedule.app/BellSchedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5688AF4D1AC4FDDF0071698B /* Build configuration list for PBXProject "BellSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5688AF6F1AC4FDDF0071698B /* Debug */,
+				5688AF701AC4FDDF0071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5688AF711AC4FDDF0071698B /* Build configuration list for PBXNativeTarget "BellSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5688AF721AC4FDDF0071698B /* Debug */,
+				5688AF731AC4FDDF0071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5688AF741AC4FDDF0071698B /* Build configuration list for PBXNativeTarget "BellScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5688AF751AC4FDDF0071698B /* Debug */,
+				5688AF761AC4FDDF0071698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5688AF4A1AC4FDDF0071698B /* Project object */;
+}
